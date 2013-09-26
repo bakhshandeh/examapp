@@ -70,7 +70,6 @@ $(function() {
                     $('#ef-portfolio').isotope('insert', $newdiv);
                     $('#ef-portfolio').isotope('layout', $newdiv);
                     uploaded = 0;
-                    pageLoad();
                     
 
                     /*Hovers*/ 
