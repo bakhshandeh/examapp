@@ -5,7 +5,7 @@ Copyright (c) 2012 Reactive Apps, Ronnie Garcia
 */
 
 // Set the uplaod directory
-$uploadDir = '/uploadifive/uploads/';
+$uploadDir = '/examapp/uploads/';
 
 // Set the allowed file extensions
 $fileTypes = array('jpg', 'jpeg', 'gif', 'png'); // Allowed file extensions
