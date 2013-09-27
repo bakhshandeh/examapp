@@ -1,12 +1,12 @@
-$(document).ready(function(){
+
     $(function(){
+        
       
-      var $container = $('#ef-portfolio');
-      
-      $container.isotope({
-	itemSelector: '.ef-item'
+    var $container = $('#ef-portfolio');
+    $container.imagesLoaded( function(){
+        $container.isotope({
+          itemSelector : '.ef-item'
+        });
       });
-      
     });
 
-});
