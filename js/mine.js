@@ -65,10 +65,11 @@ $(function() {
                 
                 if (bValid) {
                     $('#file_upload').uploadifive('clearQueue');
-		    $('#ef-portfolio').isotope('reLayout');
+		    //$('#ef-portfolio').isotope('reLayout');
                     var $newdiv = $("<div class='ef-col1-4 ef-item'> <div class='proj-img clickable'> <img src=uploads/" + filename + " alt=''> <div class='proj-description'> <h4> <a href='#'>" + title.val() + "</a> </h4> <p>" + context.val() + "</p> <div class='ef-proj-links'> <div class='alignright'> <a class='ef-proj-more'> </a> </div> </div> </div> </div> </div> ");
-                    $('#ef-portfolio').isotope('insert', $newdiv);
-                    $('#ef-portfolio').isotope('layout', $newdiv);
+                    $('#addBlock').before($newdiv);
+                    //$('#ef-portfolio').isotope('insert', $newdiv);
+                    //$('#ef-portfolio').isotope('layout', $newdiv);
                     uploaded = 0;
                     
 
